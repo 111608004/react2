@@ -1,0 +1,14 @@
+{
+  "news": [
+    {
+      "url": "https://www.thehindu.com/sci-tech/science/scientists-develop-new-method-to-grow-mouse-embryos-outside-uterus/article34115915.ece",
+      "description": "The researchers came up with a two-step method in which they were able to grow normally developing mouse embryos outside the uterus for six days",
+      "id": 1
+    },
+    {
+      "url": "https://www.ndtv.com/india-news/bengal-elections-2021-in-pm-modi-bengal-poll-speech-mention-of-global-whatsapp-facebook-outage-2395013",
+      "description": "Prime Minister Narendra Modi today ripped into political rivals in Bengal ahead of state elections as he linked the global social media outage on Friday to what he described as a slow pace of development in the state.",
+      "id": 2
+    }
+  ]
+}
