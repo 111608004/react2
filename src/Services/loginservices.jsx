@@ -16,6 +16,7 @@ async function loginService(username, password){
         },
         body: JSON.stringify(data)
     })
+    console.log("in loginservice: " + "password is: " + password)
     console.log("data token: "+data.token)
     return await response.json();
 }

@@ -9,6 +9,7 @@ import Login from './Components/login/Login';
 import Register from './Components/register/Register';
 import ReadNow from './Components/readNow/ReadNow';
 import Header from './Components/header/Header';
+import Footer from './Components/footer/Footer';
 
 class App extends React.Component{
   render(){
@@ -28,6 +29,10 @@ class App extends React.Component{
               <Route exact path='/readNow' component={ReadNow}></Route>
               </Router>
           </Row>
+          <Row >
+              <Footer></Footer>   
+          </Row>
+
           </Container>
       </div>
     )

@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import { Redirect } from 'react-router';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
@@ -14,6 +14,11 @@ class Register extends React.Component {
         }
     }
 
+    loginUser = (event) => {
+        alert("Please login");
+        return <Redirect to='/login'></Redirect>
+
+    }
     handleUserInput = (event) => {
         event.preventDefault();
         const name = event.target.name;
@@ -24,6 +29,8 @@ class Register extends React.Component {
     }
 
     render() {
+        localStorage.setItem('username', '')
+        localStorage.setItem('password', '')
         return (
             // <h1>Register</h1>
             <Form>
